@@ -1,0 +1,29 @@
+{
+  "name": "linux-input-device",
+  "version": "1.0.0",
+  "description": "A simple library to receive events in NodeJS when input events occur",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athombv/node-linux-input-device.git"
+  },
+  "author": "Jeroen Vollenbrock <jeroen@athom.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/athombv/node-linux-input-device#readme",
+  "bugs": {
+    "url": "https://github.com/athombv/node-linux-input-device/issues"
+  },
+  "dependencies": {
+    "linux-device": "^1.0.2"
+  },
+  "keywords": [
+    "evtest",
+    "linux",
+    "input",
+    "device",
+    "event"
+  ]
+}
