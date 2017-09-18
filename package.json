@@ -25,5 +25,9 @@
     "input",
     "device",
     "event"
-  ]
+  ],
+  "config": {
+    "npmPublishTagProduction": "latest",
+    "npmPublishTagStaging": "beta"
+  }
 }
