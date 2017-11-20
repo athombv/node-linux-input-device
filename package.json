@@ -27,6 +27,7 @@
     "event"
   ],
   "config": {
+    "skipNpmInstall": true,
     "npmPublishTagProduction": "latest",
     "npmPublishTagStaging": "beta"
   }
