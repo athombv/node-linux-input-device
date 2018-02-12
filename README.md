@@ -66,6 +66,6 @@ input.on('state', function(value, key, kind) {
 input.on('error', console.error);
 
 //start by querying for the initial state.
-input.on('open' => input.query('EV_SW', SW_LID));
+input.on('open', () => input.query('EV_SW', SW_LID));
 
 ```
